@@ -70,10 +70,6 @@ const App = () => {
 }
 
 const imageFallback = async () => {
-  // console.log()
-  // console.log('(Sorry, Images cant be displayed. Your device is not supported...)')
-  // console.log()
-
   const image = await terminalImage.file(path.join(__dirname + '/assets/me.png'));
   console.log(image)
 }

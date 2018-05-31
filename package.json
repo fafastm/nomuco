@@ -10,7 +10,6 @@
     "build": "./node_modules/.bin/babel src/index.js --out-file src/bin.js"
   },
   "dependencies": {
-    "i78s.frontend-utils": "^0.0.13",
     "ink": "0.5.0",
     "ink-quicksearch": "0.2.0",
     "opn": "^5.3.0",
